@@ -31,6 +31,9 @@ cd ManagerBack
    dotnet run
 4. A API estará acessível em https://localhost:7118 por padrão.
 
+5. Em Sistem/UploadImage subistitua pelo seu StorageBucket do firebase FirebaseStorage("Substitua pelo seu StorageBucket")
+
+
 ## Pontos de Extremidade
 
 ### SaleController
