@@ -17,7 +17,7 @@ public class UploadImage
 
         using (var memoryStream = new MemoryStream(imageBytes))
         {
-            var task = new FirebaseStorage("learn-6c1b7.appspot.com")
+            var task = new FirebaseStorage("Substitua pelo seu StorageBucket")
                 .Child("data")
                 .Child("random")
                 .Child(fileName)
