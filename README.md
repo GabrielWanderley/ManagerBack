@@ -80,15 +80,17 @@ Atualiza parcialmente os detalhes de um produto, permitindo o upload de uma nova
 DELETE /Product/{id}
 Remove um produto pelo ID.
 
-Mapeamento de Entidades
-A classe SalesMapping mapeia a entidade Sale para a tabela correspondente no banco de dados.
-A classe ProductsMapping mapeia a entidade Product para a tabela correspondente no banco de dados.
-Bibliotecas
+## Mapeamento de Entidades
+- A classe SalesMapping mapeia a entidade Sale para a tabela correspondente no banco de dados.
+- A classe ProductsMapping mapeia a entidade Product para a tabela correspondente no banco de dados.
+
+## Bibliotecas
 O projeto utiliza as seguintes bibliotecas:
 
-AutoMapper: Para mapear entidades e DTOs.
-Entity Framework Core: ORM para manipulação do banco de dados.
-Microsoft.AspNetCore.JsonPatch: Para operações de PATCH.
-Serilog: Para logging de eventos.
-Swashbuckle.AspNetCore: Para geração de documentação Swagger.
+- AutoMapper: Para mapear entidades e DTOs.
+- Entity Framework Core: ORM para manipulação do banco de dados.
+- Microsoft.AspNetCore.JsonPatch: Para operações de PATCH.
+- Serilog: Para logging de eventos.
+- Swashbuckle.AspNetCore: Para geração de documentação Swagger.
+  
 Sinta-se à vontade para contribuir ou explorar o código para personalizá-lo às necessidades do seu projeto. Se tiver dúvidas ou sugestões, entre em contato!   
