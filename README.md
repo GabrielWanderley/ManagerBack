@@ -31,8 +31,9 @@ cd ManagerBack
    dotnet run
 4. A API estará acessível em https://localhost:7118 por padrão.
 
-Pontos de Extremidade
-SaleController
+## Pontos de Extremidade
+
+### SaleController
 GET /Sale
 Recupera uma lista de vendas, com suporte a paginação.
 
@@ -51,7 +52,7 @@ Atualiza os detalhes de uma venda existente pelo ID.
 DELETE /Sale/{id}
 Remove uma venda existente e ajusta os dados do produto relacionado (estoque, lucro, vendidos).
 
-ProductController
+## ProductController
 GET /Product
 Recupera uma lista de produtos, com suporte a paginação.
 
